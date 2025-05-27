@@ -1,0 +1,34 @@
+h1{
+    color:black;
+    font-weight: bolder;
+    font-size: large;
+    margin-left:40px;
+}
+
+.loader{
+
+  height:100px;
+  width: 100px;
+border-radius:  50%;
+border-top:16px solid goldenrod;
+border:16px solid pink;
+animation: hello 2s linear 3s infinite ;
+}
+
+
+@keyframes hello{
+        from{
+
+transform: rotate(0deg); 
+/* div ko rotate krega 
+animation div pe ya jo likha hai uspe na lagega*/
+border:16px solid pink;
+        }
+        to{
+
+transform: rotate(360deg);
+border-top:16px solid goldenrod;
+
+        }
+    }
+    /* circle rotate kr rha , color chnage ek jgh hi ho rha ,, check for square u will understand */

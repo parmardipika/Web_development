@@ -1,0 +1,20 @@
+#ki {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  font-size: 60px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+#hi {
+  height: 400px;
+  width: 400px;
+  border: 2px solid lightseagreen;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}

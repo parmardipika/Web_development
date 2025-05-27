@@ -1,0 +1,23 @@
+#container
+{
+height: 50px;
+width: 900px;
+border:2px solid lightseagreen;
+background-color: pink;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+
+}
+.hi
+{
+height:50px;
+width:80px;
+font-size:24px;
+border-radius: 10px;
+margin-left:4px;
+line-height: 50px;
+text-align: center;
+}
